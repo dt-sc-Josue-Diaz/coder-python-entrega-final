@@ -20,4 +20,11 @@ Link de GitHub con el proyecto totalmente subido a la plataforma. Proyecto Web D
 
 ## Proyecto de oficina
 
-Este proyecto intenta emular el funcinamiento básico de un equipo gerencial en el cual se puede acceder a información de trabajo o del personal, reportes y entregas así como la administración de tareas o responsabilidades del equipo.
+Este proyecto intenta emular el funcinamiento básico de un equipo gerencial en el cual se puede acceder a información de trabajo o del personal, reportes y entregas oficiales así como la administración de tareas o responsabilidades a nivel equipo equipo. También es pensado para la automatización de procesos manuales y evitar el riesgo operativo (error humano)
+- Presentamos los modelos;
+  - lista de empleados: Este modelo para las personas que trabajan en el equipo de trabajo.
+  - lista de proyectos: El cual trata de generalizar las actividades y responsabilidades de la gerencia.  
+  - lista de tareas: De cada individuo o quizas sus responsabilidades y entregas.
+
+**Alumno:Luis Josué Díaz Alvarez**
+**Comisión:75140**
