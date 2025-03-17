@@ -1,0 +1,10 @@
+{% extends 'oficina/base.html' %}
+
+{% block content %}
+<h2>Lista de Proyectos</h2>
+<ul>
+    {% for proyecto in proyectos %}
+        <li>{{ proyecto.nombre }} - {{ proyecto.descripcion }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
