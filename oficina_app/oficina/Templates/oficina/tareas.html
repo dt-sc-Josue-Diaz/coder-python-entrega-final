@@ -1,0 +1,10 @@
+{% extends 'oficina/base.html' %}
+
+{% block content %}
+<h2>Lista de Tareas</h2>
+<ul>
+    {% for tarea in tareas %}
+        <li>{{ tarea.titulo }} - Asignado a: {{ tarea.empleado.nombre }} - Vence: {{ tarea.fecha_vencimiento }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
