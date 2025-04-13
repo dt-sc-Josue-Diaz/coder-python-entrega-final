@@ -1,0 +1,14 @@
+{% extends 'oficina/base.html' %}
+
+{% block title %}Tareas{% endblock %}
+
+{% block content %}
+<h1>Lista de Tareas</h1>
+<ul>
+    {% for tarea in tareas %}
+        <li>{{ tarea.nombre }} - {{ tarea.descripcion }}</li>
+    {% empty %}
+        <li>No hay tareas registradas.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

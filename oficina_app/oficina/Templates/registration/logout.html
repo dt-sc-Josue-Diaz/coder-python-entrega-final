@@ -1,0 +1,8 @@
+{% extends 'oficina/base.html' %}
+
+{% block title %}Cerrar sesión{% endblock %}
+
+{% block content %}
+<h2>Has cerrado sesión exitosamente</h2>
+<a href="{% url 'login' %}">Iniciar sesión nuevamente</a>
+{% endblock %}

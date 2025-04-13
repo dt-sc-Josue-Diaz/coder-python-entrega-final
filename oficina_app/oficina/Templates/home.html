@@ -1,0 +1,9 @@
+{% extends 'oficina/base.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+    <h1>Bienvenido a la Oficina</h1>
+    <p>Esto es la página principal de la oficina.</p>
+    <a href="{% url 'login' %}">Iniciar sesión</a>
+{% endblock %}
