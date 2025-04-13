@@ -1,30 +1,45 @@
-# Tercera entrega
+# 🏢 Entrega Final - Web Oficina
 
-## Consigna
+**Web Oficina** es una aplicación web desarrollada con Django que simula la organización básica de una oficina. Está orientada a la administración de empleados, tareas y reportes, permitiendo que los usuarios conozcan sus responsabilidades y los gerentes puedan visualizar la información relevante de manera estructurada.
 
-Crea una web en Django utilizando Herencia de plantillas, con un modelo de por lo menos 3 clases, un formulario para ingresar datos a las 3 clases y un formulario para buscar algo en la BD, no hace falta que sea sobre las tres clases, con realizar búsqueda sobre una alcanzará. Te sugerimos que hagas  una web estilo blog para ir preparando en la entrega final.
+---
 
-## Objetivos
+## 🎯 Objetivos
 
-Desarrollar tu primer WEB en Django utilizando patrón MVT
+- Gestionar empleados, tareas y reportes dentro de una oficina virtual.
+- Implementar un sistema de autenticación para proteger el acceso a las funcionalidades internas.
+- Proporcionar vistas diferenciadas para empleados y administradores.
+- Permitir la creación de usuarios desde un formulario de registro.
+- Asegurar que solo los usuarios autenticados puedan acceder a la información privada.
 
-## Requisitos
+---
 
-Link de GitHub con el proyecto totalmente subido a la plataforma. Proyecto Web Django con patrón MVT que incluya:
+## ⚙️ Requisitos y ejecución
 
-- Herencia de HTML.
-- Por lo menos 3 clases en models.
-- Un formulario para insertar datos a por cada model creado.
-- Un formulario para buscar algo en la BD
-- Readme que indique el orden en el que se prueban las cosas y/o donde están las funcionalidades.
+### 🧪 Requisitos previos
 
-## Proyecto de oficina
+- Python 3.10 o superior
+- Django 5.x
+- pip
+- Virtualenv (opcional, pero recomendado)
 
-Este proyecto intenta emular el funcinamiento básico de un equipo gerencial en el cual se puede acceder a información de trabajo o del personal, reportes y entregas oficiales así como la administración de tareas o responsabilidades a nivel equipo equipo. También es pensado para la automatización de procesos manuales y evitar el riesgo operativo (error humano)
-- Presentamos los modelos;
-  - lista de empleados: Este modelo para las personas que trabajan en el equipo de trabajo.
-  - lista de proyectos: El cual trata de generalizar las actividades y responsabilidades de la gerencia.  
-  - lista de tareas: De cada individuo o quizas sus responsabilidades y entregas.
+### 🔧 Instalación
+
+1. Clona este repositorio o descarga los archivos.
+
+2. Crea un entorno virtual y actívalo:
+
+   **Linux/macOS**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+
+## Mejoras a futuro
+- Filtros avanzados por fecha o estado en tareas y reportes.
+- Sistema de roles (administrador, gerente, empleado).
+- Subida de archivos y evidencias.
+- Dashboard con estadísticas y resumen.
+- Funcionalidad de búsqueda por nombre de empleado o título de tarea.
 
 **Alumno:Luis Josué Díaz Alvarez**
 **Comisión:75140**
